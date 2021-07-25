@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 18.061 sec <<< FAILURE! - in TestSuite
+login(coindcxtest.coindcxtest.LoginTest)  Time elapsed: 0.136 sec  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebElement.click()" because "element" is null
+	at coindcxtest.coindcxtest.LoginTest.login(LoginTest.java:20)
+
